@@ -1,0 +1,66 @@
+body {
+  font-family: Arial;
+  background: linear-gradient(to right, #141e30, #243b55);
+  color: white;
+  text-align: center;
+}
+
+.container {
+  max-width: 700px;
+  width: 90%;
+  margin: 30px auto;
+  padding: 20px;
+  background: rgba(0,0,0,0.6);
+  border-radius: 10px;
+}
+
+input, textarea, select {
+  width: 90%;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+button {
+  padding: 10px;
+  background: #00c9a7;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.progress-bar {
+  width: 100%;
+  background: gray;
+  height: 20px;
+  border-radius: 10px;
+}
+
+#progress {
+  height: 100%;
+  width: 0%;
+  background: #00ffcc;
+}
+
+canvas {
+  margin-top: 20px;
+  background: rgba(255,255,255,0.1);
+}
+
+.chat-box {
+  height: 200px;
+  overflow-y: auto;
+  background: rgba(0,0,0,0.5);
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.user { color: #00ffcc; text-align: right; }
+.bot { color: white; text-align: left; }
+
+#feedbackBox, #personalizedBox {
+  background: rgba(255,255,255,0.1);
+  padding: 10px;
+  text-align: left;
+}

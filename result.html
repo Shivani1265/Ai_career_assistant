@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>AI Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h1>📊 AI Career Dashboard</h1>
+
+  <div id="userInfo"></div>
+  <h2 id="score"></h2>
+
+  <div class="progress-bar">
+    <div id="progress"></div>
+  </div>
+  <p id="percent"></p>
+
+  <canvas id="skillChart" width="400" height="300"></canvas>
+
+  <h3>✅ Matched Skills</h3>
+  <ul id="matched"></ul>
+
+  <h3>❌ Missing Skills</h3>
+  <ul id="missing"></ul>
+
+  <h3>💡 Recommendations</h3>
+  <ul id="recommend"></ul>
+
+  <h3>🧾 AI Resume Feedback</h3>
+  <div id="feedbackBox"></div>
+
+  <h3>🎯 Personalized Suggestions</h3>
+  <div id="personalizedBox"></div>
+
+  <h3>🤖 AI Assistant</h3>
+  <div class="chat-box" id="chatBox"></div>
+  <input type="text" id="userInput" placeholder="Ask something...">
+  <button onclick="sendMessage()">Send</button>
+
+  <br><br>
+  <button onclick="goBack()">⬅ Back</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

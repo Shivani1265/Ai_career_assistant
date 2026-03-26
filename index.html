@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>AI Career Assistant</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.16.105/pdf.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h1>🤖 AI Career Assistant</h1>
+
+  <input type="text" id="name" placeholder="Name" required>
+  <input type="email" id="email" placeholder="Email">
+  <input type="text" id="phone" placeholder="Phone">
+  <input type="text" id="education" placeholder="Education">
+
+  <textarea id="resume" placeholder="Paste your resume..."></textarea>
+  <input type="file" id="pdfUpload" accept="application/pdf">
+
+  <select id="role">
+    <option>Frontend Developer</option>
+    <option>Backend Developer</option>
+    <option>Data Analyst</option>
+  </select>
+
+  <button onclick="goToResult()">Analyze 🚀</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
